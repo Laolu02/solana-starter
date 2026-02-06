@@ -31,6 +31,7 @@ const to = new PublicKey("4dZK6CKqMFuxcCQZUfH4UvUii7oE8uUunu58zaXF7LWE");
          const transcation = await transfer(
             connection, keypair, fromAta.address, toAta.address, keypair.publicKey, 20000000
         )
+        // 1e6 = 1 whole token
         console.log(`Your txid: ${transcation}`);
     } catch(e) {
         console.error(`Oops, something went wrong: ${e}`)

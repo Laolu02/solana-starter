@@ -30,7 +30,7 @@ umi.use(signerIdentity(createSignerFromKeypair(umi, keypair)));
             name: "Hyperion",
             symbol: "HYPE",
             uri:"https://tomato-strange-macaw-192.mypinata.cloud/ipfs/bafkreigqxihmjh6az44bm2f6rwpzljc6ly2rb7sfvjjxj2xrjcwqx5vyzq",
-            sellerFeeBasisPoints: 0,
+            sellerFeeBasisPoints: 0, //in percentage 100% = 10000
             creators: null,
             collection: null,
             uses: null
